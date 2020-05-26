@@ -1,0 +1,80 @@
+#app_body {
+    max-width: 675px;
+}
+
+#header {
+    padding-right: 0;
+    position: relative;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+}
+
+.accessible #submit_app, .accessible #apply_button {
+    background-color: #2C4BC3;
+    padding: 15px 26px;
+    border-radius: 35px;
+    font-size: 15px;
+}
+
+.accessible #apply_button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: auto;
+    right: auto;
+}
+
+#app_body h1 {
+    font-size: 45px;
+}
+
+#content p, #content li {
+    font-size: 16px;
+    color: #5F5F5F;
+    line-height: 22px;
+}
+
+#content p {
+    text-align: justify;
+}
+
+#content ul {
+    list-style: none;
+    padding-inline-start: 18px;
+}
+
+#content ul li {
+    position: relative;
+    padding-bottom: 3px;
+}
+
+#content ul li:before{
+    content: '';
+    position: absolute;
+    border-right: 3px solid #49A18C;
+    border-bottom: 3px solid #49A18C;
+    width: 5px;
+    height: 5px;
+    top: 11px;
+    left: -20px;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+#application {
+    background-color: #F2F2F2;
+    border-radius: 14px;
+    margin-top: 58px;
+    margin-bottom: 50px;
+    max-width: none;
+    padding-left: 58px;
+    padding-top: 45px;
+}
+
+#application h2.heading {
+    font-size: 31px;
+    margin-bottom: 27px;
+}
+
+#main_fields .required-fields {
+    margin-top: 20px;
+}
