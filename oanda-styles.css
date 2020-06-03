@@ -1,12 +1,27 @@
+body {
+    color: #333;
+    font-family: Effra,Helvetica,Arial,sans-serif;
+}
+
+#wrapper {
+    max-width: unset;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    min-height: 100%;
+}
+
 #app_body {
-    max-width: 675px;
+    max-width: 800px;
+    padding-right: 20px;
+    margin: 0 auto;
 }
 
 #header {
     padding-right: 0;
     position: relative;
-    padding-bottom: 60px;
-    margin-bottom: 30px;
+    padding-bottom: 55px;
+    margin-bottom: 15px;
 }
 
 .accessible #submit_app, .accessible #apply_button {
@@ -25,17 +40,24 @@
 }
 
 #app_body h1 {
-    font-size: 45px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+
+#content {
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    color: #0B0B0B;
 }
 
 #content p, #content li {
     font-size: 16px;
-    color: #5F5F5F;
     line-height: 22px;
-}
-
-#content p {
-    text-align: justify;
+    letter-spacing: 0.3px;
+    margin: 0 0 15px 0;
 }
 
 #content ul {
@@ -61,8 +83,8 @@
 }
 
 #application {
-    background-color: #F2F2F2;
-    border-radius: 14px;
+    background: #F2F2F2;
+    border-radius: 15px;
     margin-top: 58px;
     margin-bottom: 50px;
     max-width: none;
@@ -71,10 +93,70 @@
 }
 
 #application h2.heading {
-    font-size: 31px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: -0.1px;
     margin-bottom: 27px;
+}
+
+#application hr {
+    display: none;
 }
 
 #main_fields .required-fields {
     margin-top: 20px;
+}
+
+#main_fields div.field {
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+#main_fields div.field label, #eeoc_fields div.field label {
+    float: none !important;
+    width: 100% !important;
+    text-align: left !important;
+    display: block !important;
+}
+
+#main_fields div.field label,
+#eeoc_fields div.field label,
+#custom_fields div.field label,
+#main_fields div.field input[type=text],
+#custom_fields div.field input[type=text],
+.attach-or-paste .link-container a {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+}
+
+#main_fields div.field input[type=text], #custom_fields div.field input[type=text] {
+    margin-top: 6px;
+    width: 480px;
+    height: 30px;
+    padding-left: 11px;
+}
+
+#main_fields div.field label#resume,
+#main_fields div.field label#cover_letter {
+    font-weight: bold;
+}
+
+.attach-or-paste .link-container {
+    margin-top: 7px;
+}
+
+.attach-or-paste .link-container a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.attach-or-paste .link-container a::after {
+    content: "" !important;
+}
+
+#submit_app {
+    text-shadow: none;
 }
