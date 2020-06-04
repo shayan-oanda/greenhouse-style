@@ -160,3 +160,14 @@ body {
 #submit_app {
     text-shadow: none;
 }
+
+@media (max-width: 640px) {
+    #app_body {
+        padding-left: 20px !important;
+    }
+
+    #application {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
