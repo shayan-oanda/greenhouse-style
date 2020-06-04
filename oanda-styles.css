@@ -170,4 +170,8 @@ body {
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    #app_body h1 {
+        font-size: 44px;
+    }
 }
