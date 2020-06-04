@@ -53,10 +53,20 @@ body {
     color: #0B0B0B;
 }
 
-#content p, #content li {
+#content p,
+#content li,
+#main_fields div.field label,
+#eeoc_fields div.field label,
+#custom_fields div.field label,
+#main_fields div.field input[type=text],
+#custom_fields div.field input[type=text],
+.attach-or-paste .link-container a {
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.3px;
+}
+
+#content p, #content li {
     margin: 0 0 15px 0;
 }
 
@@ -96,7 +106,7 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 34px;
-    line-height: 42px;
+    line-height: 41px;
     letter-spacing: -0.1px;
     margin-bottom: 27px;
 }
@@ -119,17 +129,6 @@ body {
     width: 100% !important;
     text-align: left !important;
     display: block !important;
-}
-
-#main_fields div.field label,
-#eeoc_fields div.field label,
-#custom_fields div.field label,
-#main_fields div.field input[type=text],
-#custom_fields div.field input[type=text],
-.attach-or-paste .link-container a {
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: 0.25px;
 }
 
 #main_fields div.field input[type=text], #custom_fields div.field input[type=text] {
@@ -173,5 +172,24 @@ body {
 
     #app_body h1 {
         font-size: 44px;
+    }
+
+    #content p,
+    #content li,
+    #main_fields div.field label,
+    #eeoc_fields div.field label,
+    #custom_fields div.field label,
+    #main_fields div.field input[type=text],
+    #custom_fields div.field input[type=text],
+    .attach-or-paste .link-container a {
+        font-size: 15px;
+        line-height: 21px;
+        letter-spacing: 0.25px;
+    }
+
+    #application h2.heading {
+        font-size: 28px;
+        line-height: 30px;
+        letter-spacing: -0.49px;
     }
 }
